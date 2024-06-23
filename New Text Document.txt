@@ -1,0 +1,20 @@
+name=str(input("enter your name: "))
+print("hello "+ name)
+age=int(input("enter your age: "))    
+if age<18:
+    print("not eligible")
+    exit()
+else:
+    print("eligible")
+place=str(input("enter your place: "))    
+print("place = " +place)
+education=str(input("enter your education: "))
+print("studies = " + education)
+branch=str(input("enter your branch: "))
+print("branch = " + branch)
+clg_name=str(input("enter college: "))
+print("college = " +clg_name)
+percentage=int(input("enter percentage(only number): "))
+print("percentage = " + str(percentage)+"percentage")
+list=[name,age,place,education,clg_name,branch,str(percentage)]
+print(list)
